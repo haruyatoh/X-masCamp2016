@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+  background-color: #dcdcdc;
+}
+
+aside {
+ width: 180px;
+ height:29px;
+ float: right;
+ background-color: #ffffff;
+ margin-top: 10px;
+ box-shadow: 1px 1px 3px 1px #727272;
+ padding-left: 5px;
+}
+
+.img-sub{
+  margin: 90px 5px;
+}
+
+main{
+ width: 600px;
+ margin: 10px;
+ float: left;
+ overflow: hidden;
+}   
+    
+/*#slideshow{
+        position: relative;
+        width :240px;
+        height:160px;
+    }
+
+#slideshow img{
+        position: absolute;
+        top:0;
+        left:0;
+        margin-top:5px;
+        z-index: 8;
+        opacity:0.0;
+    }
+#slideshow img.active{
+    z-inside:10;
+    opacity:1.0;
+}
+    #slideshow img.last-active{
+        z-index:9;
+    }
+*/
+
+
+    
+
+.column {
+  background-color: #ffffff;
+  float: left;
+  margin: 10px;
+}
+
+.one-half1 {
+  width: 280px;
+  height: 150px;
+  border: 3px solid #b6b6b6;
+  margin-bottom: 0;
+}
+.one-half5 {
+  width: 280px;
+  height: 10px;
+  background-color: #dcdcdc;
+  font-size: 20px;
+}
+
+
+
+.one-third{
+    width:180px;
+    height:80px 1;
+    border: 3px solid #b6b6b6;
+}
+
+header {
+  background-color: #b6b6b6;
+  overflow: hidden;
+  border-top:2px solid #212121;
+  box-shadow: 1px 1px 3px 1px #727272;
+  height:46px;
+}
+
+header h1 {
+  color:fff;
+  font-size:25px;
+  font-family:monospace;
+  padding-top: 5px;
+  float: left;
+}
+
+nav ul li {
+  float: left;
+  list-style-type: none;
+}
+
+nav ul {
+  overflow: hidden;
+  margin-top: 1px;
+}
+
+nav {
+  float: right;
+}
+
+nav a {
+  width:auto;
+  height: 30px;
+  border-radius: 8px;
+  color: #ffffff;
+  background: #b2ebf2;
+  padding: 5px;
+  text-decoration: none;
+  font-family: monospace;
+  font-size: 15px;
+  transition: 0.5s;
+  display: inline-block;
+  border: 1px solid #00bcd4;
+  text-align: center;
+  line-height: 1;
+  }
+
+nav a:hover {
+  color: #00bcd4;
+  background: #ffffff;
+}
+    
+h2.sirasu {
+  color: #fff;
+  font-size: 20px;
+  background-color: #b6b6b6;
+  font-family:monospace;
+  box-shadow: 1px 1px 3px 1px #727272;
+  height:30px;
+  padding-left: 5px;
+  width:590px;
+  margin:10px 0;
+}
+
+h3 {
+   margin:15px 10px 10px 10px;
+   font-size: 13px;
+}
+
+h4{
+   margin-left:auto;
+}
+    
+.container {
+  width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.battle {
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+  border: 1px solid #00796b;
+  border-radius: 8px;
+  padding:3px;
+  background-color: #b2dfdb;
+  text-decoration: none;
+  display: inline-block;
+  line-height: 50px;
+  margin-left:60px;
+  margin-top: 15px;
+}
+
+.battle:hover {
+  color: #00796b;
+  background-color: #ffffff;
+  transition: 1s;
+}
+
+.sirasutai {
+  color: #ffffff;
+  border: 1px solid #e91e63;
+  border-radius: 50px;
+  padding:8px;
+  background-color: #f8bbd0;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  text-align-last: center;
+}
+
+.sirasutai:hover {
+  color: #e91e63;
+  background-color: #ffffff;
+  transition: 1s;
+}
+
+.sirasutweet {
+/*
+  color: #ffffff;
+  border: 1px solid #9c27b0;
+  border-radius: 50px;
+  padding:8px;
+  background-color: #d1c4e9;
+  text-decoration: none;
+*/
+  display: inline-block;
+  margin: 15px;
+/*
+　text-align: center;
+  font-size: 12px;
+*/
+}
+
+.sirasutweet:hover {
+/*
+  color: #9c27b0;
+  background-color: #dcdcdc;
+  transition: 1s;*/
+  opacity: 0.5;
+ filter: alpha(opacity=50);
+ -moz-opacity: 0.5;
+}
+
+/*
+.character2{
+color: #fff;
+  font-size: 20px;
+  background-color: #b6b6b6;
+  font-family:monospace;
+  box-shadow: 1px 1px 3px 1px #727272;
+  height:30px;
+  padding-left: 5px;
+  line-height: 1;
+  width:560px;
+    
+}
+*/
+
+    
+h2.kaisyain {
+  color: #fff;
+  font-size: 20px;
+  background-color: #b6b6b6;
+  font-family:monospace;
+  box-shadow: 1px 1px 3px 1px #727272;
+  height:30px;
+  padding-left: 5px;
+  width:590px;
+  border:none;
+  border-radius:0;
+  margin:10px 0;
+}
+
+.one-half2{
+  width: 280px;
+  height: 150px;
+  border: 3px solid #b6b6b6;
+  margin:8px;
+}
+
+.one-half6 {
+  width: 600px;
+  height: 20px;
+  background-color: #dcdcdc;
+  font-size: 20px;
+}
+.one-forth{
+    width:90px;
+    height:40px 1;
+    border: 3px solid #b6b6b6;
+    margin:3px;
+}
